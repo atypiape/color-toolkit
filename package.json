@@ -1,6 +1,6 @@
 {
   "name": "color-toolkit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A well-tested library written in typescript to with a lot of tools to help mobile developers who care about color.",
   "homepage": "https://github.com/atypiape/color-toolkit",
   "author": "Atypiape <atypiape@163.com>",
@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/atypiape/color-toolkit.git"
   },
+  "main": "lib/index.js",
   "files": [
     "lib/*"
   ],
