@@ -12,7 +12,7 @@ A well-tested library written in typescript to with a lot of tools to help mobil
 <p align="center">
   <a href="https://www.npmjs.com/package/color-toolkit"><img src="https://img.shields.io/npm/v/color-toolkit.svg"></a>
   <a href="https://www.npmjs.com/package/color-toolkit"><img src="https://img.shields.io/npm/dm/color-toolkit.svg"></a>
-  <a href="https://github.com/atypiape/color-toolkit/actions"><img src="https://github.com/atypiape/color-toolkit/workflows/PR/badge.svg"></a>
+  <!--<a href="https://github.com/atypiape/color-toolkit/actions"><img src="https://github.com/atypiape/color-toolkit/workflows/PR/badge.svg"></a>-->
    <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
 </p>
