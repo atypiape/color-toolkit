@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "../lib",
+    "target": "ES5",
+    "lib": ["esnext"],
+    "declaration": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+  },
+  "include": ["index.ts"]
+}

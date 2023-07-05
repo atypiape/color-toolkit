@@ -1,22 +1,61 @@
 {
   "name": "color-toolkit",
   "version": "0.1.0",
-  "private": true,
+  "description": "A well-tested library written in typescript to with a lot of tools to help mobile developers who care about color.",
+  "homepage": "https://github.com/atypiape/color-toolkit",
+  "author": "Atypiape <atypiape@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atypiape/color-toolkit.git"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "keywords": [
+    "colors",
+    "react",
+    "rgb",
+    "react-native",
+    "manipulation",
+    "filters",
+    "darken",
+    "lighten",
+    "tint",
+    "shade",
+    "blend",
+    "mix",
+    "tinting",
+    "shading",
+    "blending",
+    "mixing"
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lib:build": "cd ./src && rm -rf ../dist && npx tsc --build tsconfig.json"
   },
-  "dependencies": {
+  "devDependencies": {
+    "@jest/globals": "^29.6.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
     "@types/node": "20.3.3",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.8",
+    "jest": "^29.6.0",
     "next": "13.4.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-test-renderer": "^18.2.0",
     "typescript": "5.1.6"
   }
 }
