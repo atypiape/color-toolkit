@@ -1,7 +1,7 @@
 set -eux
 
 cd src
-rm -rf ../dist
+rm -rf ../lib
 npx tsc --build tsconfig.json
 cd ..
 
@@ -11,6 +11,6 @@ nrm use npm
 
 npm login
 
-npm publish
+npm publish --registry="https://registry.npmjs.org"
 
 nrm use $REPO
